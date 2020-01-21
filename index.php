@@ -76,10 +76,11 @@ $google_faqs = [
                     <li><a href="#">Norme sulla privacy</a></li>
                     <li><a href="#">Note di servizio</a></li>
                     <li><a href="#">Tecnologie</a></li>
-                    <li class="active"><a href="#">Domande frequenti</a></li>
+                    <li class="underline"><a class="menu-active" href="#">Domande frequenti</a></li>
                 </ul>
-            <div id="account">
-                <a href="#">Account Google</a>
+                <div id="account">
+                    <a href="#">Account Google</a>
+                </div>
             </div>
         </div>
 

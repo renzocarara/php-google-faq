@@ -1,4 +1,5 @@
 /* main style */
+
 .container {
     max-width: 992px;
     margin: 0 auto;
@@ -15,6 +16,10 @@ p {
 
     a {
         color: $text_link_color;
+
+        &:visited {
+            color: $text_link_color;
+        }
     }
 }
 /* end main style */
