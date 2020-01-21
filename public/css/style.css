@@ -34,6 +34,15 @@ a {
 
 /* header style */
 
+header {
+  width: 100%;
+  max-width: 2000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
 #header-container {
   height: 100px;
   padding: 0 30px;
@@ -89,7 +98,7 @@ a {
 /* main style */
 
 main {
-  padding-top: 30px;
+  padding-top: 130px;
 }
 
 h2 {
