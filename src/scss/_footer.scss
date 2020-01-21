@@ -1,5 +1,4 @@
 /* footer styles */
-
 footer {
     background-color: $footer_bgc;
     height: 45px;
@@ -24,6 +23,11 @@ footer {
 
     select {
         width: 190px;
+    }
+
+    img {
+        vertical-align: bottom;
+        width: 24px;
     }
 }
 /* end footer style */

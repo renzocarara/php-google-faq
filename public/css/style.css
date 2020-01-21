@@ -143,5 +143,10 @@ footer {
   width: 190px;
 }
 
+#footer-bar img {
+  vertical-align: bottom;
+  width: 24px;
+}
+
 /* end footer style */
 

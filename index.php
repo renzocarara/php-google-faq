@@ -111,8 +111,8 @@ $google_faqs = [
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Termini</a></li>
                 </ul>
-                <div id="account">
-                    <img src="" alt="">
+                <div>
+                    <img src="public/images/language_icon.png" alt="language icon">
                     <select class="" name="">
                         <option value="italiano">Italiano</option>
                          <option value="inglese">English</option>
