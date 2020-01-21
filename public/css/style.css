@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-  max-width: 992px;
+  max-width: 978px;
   margin: 0 auto;
 }
 
@@ -89,16 +89,19 @@ a {
 /* main style */
 
 main {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 h2 {
+  margin-top: 60px;
   color: #3C4043;
 }
 
 p {
   color: #212121;
   font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
 }
 
 p a {

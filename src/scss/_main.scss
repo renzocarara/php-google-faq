@@ -1,16 +1,19 @@
 /* main style */
 
 main {
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 h2 {
+    margin-top: 60px;
     color: $title_color;
 }
 
 p {
     color: $text_color;
     font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
 
     a {
         color: $text_link_color;

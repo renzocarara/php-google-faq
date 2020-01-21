@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\BOOLEAN\ESERCIZI\037\php-google-faq\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! D:\BOOLEAN\ESERCIZI\037\php-google-faq\src\scss\app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! D:\boolean\esercizi\037\php-google-faq\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! D:\boolean\esercizi\037\php-google-faq\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
