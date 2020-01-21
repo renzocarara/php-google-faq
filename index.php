@@ -104,7 +104,7 @@ $google_faqs = [
     </main>
     <footer>
         <div  class="container">
-            <div id="footer-$bar">
+            <div id="footer-bar">
                 <ul>
                     <li><a href="#">Google</a></li>
                     <li><a href="#">Tutto su Google</a></li>

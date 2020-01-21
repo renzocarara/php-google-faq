@@ -125,6 +125,18 @@ footer {
           align-items: center;
   -webkit-box-pack: justify;
           justify-content: space-between;
+  padding: 10px 0;
+}
+
+#footer-bar ul li {
+  height: 100%;
+  margin-right: 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+#footer-bar ul li a {
+  font-size: 11px;
 }
 
 /* end footer style */

@@ -8,5 +8,17 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
+
+    ul li {
+        height: 100%;
+        margin-right: 10px;
+        list-style-type: none;
+        display: inline-block;
+
+        a {
+            font-size: 11px;
+        }
+    }
 }
 /* end footer style */
