@@ -139,5 +139,9 @@ footer {
   font-size: 11px;
 }
 
+#footer-bar select {
+  width: 190px;
+}
+
 /* end footer style */
 

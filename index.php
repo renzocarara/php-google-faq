@@ -114,7 +114,10 @@ $google_faqs = [
                 <div id="account">
                     <img src="" alt="">
                     <select class="" name="">
-
+                        <option value="italiano">Italiano</option>
+                         <option value="inglese">English</option>
+                         <option value="francese">Francais</option>
+                         <option value="tedesco">Deutsch</option>
                     </select>
                 </div>
             </div>
