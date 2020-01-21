@@ -57,6 +57,7 @@ $google_faqs = [
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" /> -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css">
     <title>Boolean clss#8 - google faq con php</title>
 </head>
@@ -64,14 +65,13 @@ $google_faqs = [
 <body>
 
     <header>
-
     </header>
 
     <main class="container">
 
     <?php
     foreach ($google_faqs as $faq) {
-        echo '<h3>' . $faq['question'] . '</h3>';
+        echo '<h2>' . $faq['question'] . '</h2>';
         echo '<br>';
         for ($i=0; $i < count($faq['answer']) ; $i++) {
             // scorro tutti paragrafi che compongono la risposta

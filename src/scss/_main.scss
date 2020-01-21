@@ -1,8 +1,15 @@
 /* main style */
 .container {
-    max-width: 1150px;
+    max-width: 992px;
     margin: 0 auto;
 }
 
-p {}
+h2 {
+    color: $title_color;
+}
+
+p {
+    color: $text_color;
+    font-size: 14px;
+}
 /* end main style */

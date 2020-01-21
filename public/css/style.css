@@ -10,6 +10,19 @@
 
 /* commom style */
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #3367D6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3367D6;
+}
+
 /*  end commom style */
 
 /* header style */
@@ -19,8 +32,17 @@
 /* main style */
 
 .container {
-  max-width: 1150px;
+  max-width: 992px;
   margin: 0 auto;
+}
+
+h2 {
+  color: #3C4043;
+}
+
+p {
+  color: #212121;
+  font-size: 14px;
 }
 
 /* end main style */

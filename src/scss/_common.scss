@@ -1,5 +1,15 @@
 /* commom style */
+
 body {
-    // font-family: Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: $link_color;
+    text-decoration: none;
+
+    &:visited {
+        color: $link_color;
+    }
 }
 /*  end commom style */
