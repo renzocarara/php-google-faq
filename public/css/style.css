@@ -1,0 +1,40 @@
+/* reset style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* end reset style */
+
+/* commom style */
+
+/*  end commom style */
+
+/* header style */
+
+/* end header style */
+
+/* main style */
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* end main style */
+
+/* footer styles */
+
+#footer-bar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+/* end footer style */
+
