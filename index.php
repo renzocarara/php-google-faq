@@ -6,18 +6,18 @@ e il footer e stilate tutto con sass
 Nome repo: php-google-faq -->
 <?php
 $google_faqs = [
-    ['question' => "<h3>Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?</h3>",
-    'answer' => "<p>testo della answer 1</p>"],
+    ['question' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
+    'answer' => "testo della answer 1"],
 
-    ['question' => "<h3>Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h3>",
-    'answer' => "<p>testo della answer 2</p>"],
+    ['question' => "Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?",
+    'answer' => "testo della answer 2"],
 
-    ['question' => '<h3>Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</h3>',
-    'answer' => "<p>I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <a href='#'>contattare il webmaster</a> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, <a href='#'>fai clic qui.</a> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente,
-    è inoltre possibile <a href='#'>visitare la nostra pagina di assistenza per avere ulteriori informazioni.</a></p>"],
+    ['question' => 'Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?',
+    'answer' => "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <a href='#'>contattare il webmaster</a> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, <a href='#'>fai clic qui.</a> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente,
+    è inoltre possibile <a href='#'>visitare la nostra pagina di assistenza per avere ulteriori informazioni.</a>"],
 
-    ['question' => "<h3>Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</h3>",
-    'answer' => "<p>testo della answer 4</p>"]
+    ['question' => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
+    'answer' => "testo della answer 4"]
 ];
 ?>
 
@@ -45,16 +45,12 @@ $google_faqs = [
 
     <?php
     foreach ($google_faqs as $faq) {
-        echo $faq['question'];
+        echo '<h3>' . $faq['question'] . '</h3>';
         echo '<br>';
-        echo $faq['answer'] ;
+        echo '<p>' . $faq['answer'] . '</p>';
         echo '<br>';
     }
     ?>
-
-
-
-
 
     </main>
     <footer>
