@@ -1,4 +1,5 @@
 /* commom style */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -7,9 +8,15 @@ a {
     color: $link_color;
     text-decoration: none;
 }
-/*  end commom style */
 
 .container {
     max-width: 992px;
     margin: 0 auto;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*  end commom style */

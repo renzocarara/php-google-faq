@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* end reset style */
 
 /* commom style */
@@ -25,12 +19,18 @@ a {
   text-decoration: none;
 }
 
-/*  end commom style */
-
 .container {
   max-width: 992px;
   margin: 0 auto;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*  end commom style */
 
 /* header style */
 

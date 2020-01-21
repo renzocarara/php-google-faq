@@ -78,7 +78,7 @@ $google_faqs = [
                     <li><a href="#">Tecnologie</a></li>
                     <li class="underline"><a class="menu-active" href="#">Domande frequenti</a></li>
                 </ul>
-                <div id="account">
+                <div>
                     <a href="#">Account Google</a>
                 </div>
             </div>
@@ -102,6 +102,7 @@ $google_faqs = [
     ?>
 
     </main>
+    
     <footer>
         <div  class="container">
             <div id="footer-bar">
