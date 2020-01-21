@@ -1,9 +1,12 @@
 /* footer styles */
+footer {
+    background-color: $footer_bgc;
+    height: 45px;
+}
 
 #footer-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // height: $bar_height;
 }
 /* end footer style */

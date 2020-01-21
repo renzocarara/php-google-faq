@@ -1,5 +1,4 @@
 /* commom style */
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -9,3 +8,8 @@ a {
     text-decoration: none;
 }
 /*  end commom style */
+
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+}

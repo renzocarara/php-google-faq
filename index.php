@@ -103,8 +103,21 @@ $google_faqs = [
 
     </main>
     <footer>
-        <div id="#footer-$bar">
+        <div  class="container">
+            <div id="footer-$bar">
+                <ul>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+                <div id="account">
+                    <img src="" alt="">
+                    <select class="" name="">
 
+                    </select>
+                </div>
+            </div>
         </div>
     </footer>
 
