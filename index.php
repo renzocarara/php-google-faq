@@ -65,6 +65,25 @@ $google_faqs = [
 <body>
 
     <header>
+        <div id="header-container">
+            <div id="header-top" class="clearfix">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="logo">
+                <h1><a href="#">Privacy e Termini</a></h1>
+            </div>
+            <div id="header-bottom">
+                <ul>
+                    <li><a href="#">Introduzione</a></li>
+                    <li><a href="#">Norme sulla privacy</a></li>
+                    <li><a href="#">Note di servizio</a></li>
+                    <li><a href="#">Tecnologie</a></li>
+                    <li class="active"><a href="#">Domande frequenti</a></li>
+                </ul>
+            <div id="account">
+                <a href="#">Account Google</a>
+            </div>
+        </div>
+
+        </div>
     </header>
 
     <main class="container">
