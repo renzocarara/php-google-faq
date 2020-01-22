@@ -91,18 +91,20 @@ $google_faqs = [
 
     <?php
     foreach ($google_faqs as $faq) {
-        echo '<h2>' . $faq['question'] . '</h2>';
-        echo '<br>';
-        for ($i=0; $i < count($faq['answer']) ; $i++) {
+        // scorro tutti gli elementi faq?>
+        <h2><?php echo $faq['question']; ?></h2>
+
+        <?php for ($i=0; $i < count($faq['answer']) ; $i++) {
             // scorro tutti paragrafi che compongono la risposta
-            echo '<p>' . $faq['answer'][$i] . '</p>';
-            echo '<br>';
-        }
-    }
+        ?>
+             <p><?php echo $faq['answer'][$i]; ?></p>
+    <?php
+        } // end ciclo foreach su paragrafi di una singola faq
+    } // end ciclo foreach sulle faq
     ?>
 
     </main>
-    
+
     <footer>
         <div  class="container">
             <div id="footer-bar">
