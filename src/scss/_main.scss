@@ -1,25 +1,27 @@
 /* main style */
+
 main {
     padding-top: 130px;
-}
 
-h2 {
-    margin-top: 60px;
-    color: $title_color;
-}
+    h2 {
+        margin-top: 60px;
+        color: $title_color;
+        padding-bottom: 15px;
+    }
 
-p {
-    color: $text_color;
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    line-height: 24px;
-    padding-bottom: 20px;
+    p {
+        color: $text_color;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        line-height: 24px;
+        padding-bottom: 20px;
 
-    a {
-        color: $text_link_color;
-
-        &:visited {
+        a {
             color: $text_link_color;
+
+            &:visited {
+                color: $text_link_color;
+            }
         }
     }
 }
