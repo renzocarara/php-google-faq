@@ -85,11 +85,13 @@ header {
   display: inline-block;
 }
 
-#header-container .underline {
-  border-bottom: 4px solid #3367D6;
+#header-container #header-bottom ul li a {
+  display: inline-block;
+  height: 34px;
 }
 
 #header-container .menu-active {
+  border-bottom: 4px solid #3367D6;
   color: #3367D6;
 }
 

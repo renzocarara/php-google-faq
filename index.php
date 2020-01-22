@@ -76,7 +76,7 @@ $google_faqs = [
                     <li><a href="#">Norme sulla privacy</a></li>
                     <li><a href="#">Note di servizio</a></li>
                     <li><a href="#">Tecnologie</a></li>
-                    <li class="underline"><a class="menu-active" href="#">Domande frequenti</a></li>
+                    <li><a class="menu-active" href="#">Domande frequenti</a></li>
                 </ul>
                 <div>
                     <a href="#">Account Google</a>

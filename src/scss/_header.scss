@@ -45,14 +45,16 @@ header {
             margin-right: 30px;
             list-style-type: none;
             display: inline-block;
+
+            a {
+                display: inline-block;
+                height: 34px;
+            }
         }
     }
 
-    .underline {
-        border-bottom: 4px solid $text_link_color;
-    }
-
     .menu-active {
+        border-bottom: 4px solid $text_link_color;
         color: $text_link_color;
     }
 }
